@@ -7,7 +7,9 @@
     - [ ] <https://vladmihalcea.com/date-timestamp-jpa-hibernate/>
     - [ ] <https://vladmihalcea.com/monetaryamount-jpa-hibernate/>
     - [ ] <https://vladmihalcea.com/jpa-attributeconverter/>
+    - [ ] <https://vladmihalcea.com/manytoone-jpa-hibernate/>
     - [ ] <https://vladmihalcea.teachable.com/p/hypersistence-optimizer/>
+    - [ ] <https://vladmihalcea.com/encrypt-decrypt-json-jpa/>
   - [ ] Read and add things from https://jschmitz.dev/
 - [ ] Technologies
   - [ ] JPA
