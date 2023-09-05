@@ -1,6 +1,7 @@
 package net.parksy;
 
-import javax.mail.*;
+import jakarta.mail.*;
+
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.ZoneId;

@@ -1,10 +1,10 @@
 package net.parksy;
 
-import javax.mail.MessagingException;
-import javax.mail.Session;
-import javax.mail.Store;
+import jakarta.mail.MessagingException;
+import jakarta.mail.Session;
+import jakarta.mail.Store;
+
 import java.io.*;
-import java.util.Map;
 import java.util.Properties;
 
 public class Config {
@@ -79,6 +79,8 @@ public class Config {
 
         // get the session object
         Properties properties = new Properties();
+        properties.setProperty("mail.mime.address.strict", "false");
+//        Session session = Session.getDefaultInstance(props, ....);
         properties.put("mail.store.protocol", "pop3");
         properties.put("mail.pop3s.host", pop3Host);
         properties.put("mail.pop3s.port", "995");

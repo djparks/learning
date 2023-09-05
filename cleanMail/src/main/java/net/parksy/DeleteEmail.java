@@ -1,7 +1,8 @@
 package net.parksy;
 
-import javax.mail.*;
-import javax.mail.internet.MimeUtility;
+
+import jakarta.mail.*;
+import jakarta.mail.internet.MimeUtility;
 
 import java.io.File;
 import java.io.IOException;
@@ -35,6 +36,15 @@ public class DeleteEmail {
        From: updates@themorningcaller.com   Subject: 1776 Action
        From: updates@themorningcaller.com   Second Notice
        From: budget@e.budget.com    Subject: special offer
+
+       From: trendingnewsfeed<mail@trendingnewsfeed.com>
+javax.mail.internet.AddressException: Domain contains illegal character in string ``38353669692866_54004account@best_buy.com''
+        at javax.mail.internet.InternetAddress.checkAddress(InternetAddress.java:1432)
+        at javax.mail.internet.InternetAddress.parse(InternetAddress.java:1215)
+        at javax.mail.internet.InternetAddress.parseHeader(InternetAddress.java:777)
+        at javax.mail.internet.MimeMessage.getAddressHeader(MimeMessage.java:756)
+        at javax.mail.internet.MimeMessage.getFrom(MimeMessage.java:384)
+        at net.parksy.DeleteEmail.delete(DeleteEmail.java:91)
      */
 
     public static void delete( String service )

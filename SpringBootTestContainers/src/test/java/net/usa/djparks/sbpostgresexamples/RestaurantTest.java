@@ -2,6 +2,7 @@ package net.usa.djparks.sbpostgresexamples;
 
 import java.util.List;
 
+import org.jetbrains.annotations.NotNull;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
@@ -49,7 +50,7 @@ class RestaurantTest {
     public static class DataSourceInitializer implements ApplicationContextInitializer<ConfigurableApplicationContext> {
 
         @Override
-        public void initialize(ConfigurableApplicationContext applicationContext) {
+        public void initialize(@NotNull ConfigurableApplicationContext applicationContext) {
             TestPropertySourceUtils.addInlinedPropertiesToEnvironment(
                     applicationContext,
                     "spring.datasource.url=" + database.getJdbcUrl(),

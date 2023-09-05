@@ -1,17 +1,13 @@
 package net.parksy;
 
 
+import jakarta.mail.*;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Properties;
 
-import javax.mail.Flags;
-import javax.mail.Folder;
-import javax.mail.Message;
-import javax.mail.MessagingException;
-import javax.mail.Session;
-import javax.mail.Store;
 
 
 //https://www.codejava.net/java-ee/javamail/delete-e-mail-messages-on-mail-server-programmatically

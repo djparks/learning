@@ -1,7 +1,12 @@
 package net.parksy;
 
-import javax.mail.*;
-import javax.mail.internet.MimeUtility;
+
+
+import jakarta.mail.Folder;
+import jakarta.mail.Message;
+import jakarta.mail.MessagingException;
+import jakarta.mail.Store;
+import jakarta.mail.internet.MimeUtility;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

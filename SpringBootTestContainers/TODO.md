@@ -14,3 +14,7 @@
 - [ ] Technologies
   - [ ] JPA
   - [ ] Spring Data JDBC
+- [ ] Chaos Engineering!
+  - [ ] Toxiproxy - <https://www.anno1980.dk/posts/toxiproxy/>
+  - [ ] Invalid credentials
+  - [ ] Can't reach DB (probably Toxiproxy)

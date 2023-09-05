@@ -7,8 +7,8 @@
   <version>1.0-SNAPSHOT</version>
 
   <properties>
-    <maven.compiler.source>11</maven.compiler.source>
-    <maven.compiler.target>11</maven.compiler.target>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
     <junit.jupiter.version>5.9.0</junit.jupiter.version>
     <junit.platform.version>1.9.0</junit.platform.version>
     <maven-assembly-plugin.version>3.3.0</maven-assembly-plugin.version>
@@ -20,11 +20,21 @@
   <url>http://maven.apache.org</url>
 
   <dependencies>
-    <dependency>
-      <groupId>com.sun.mail</groupId>
-      <artifactId>javax.mail</artifactId>
-      <version>1.6.2</version>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>com.sun.mail</groupId>-->
+<!--      <artifactId>javax.mail</artifactId>-->
+<!--      <version>1.6.2</version>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>jakarta.mail</groupId>-->
+<!--      <artifactId>jakarta.mail-api</artifactId>-->
+<!--      <version>2.1.2</version>-->
+<!--    </dependency>-->
+      <dependency>
+        <groupId>com.sun.mail</groupId>
+        <artifactId>jakarta.mail</artifactId>
+        <version>2.0.1</version>
+      </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-engine</artifactId>
